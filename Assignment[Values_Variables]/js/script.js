@@ -1,9 +1,10 @@
-// Variables of Different Types, Numbers, Booleans, and Strings
+// Arrays
 
-var age = 18; // Number variable
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
 
-var isStudent = true;
+muppetNames[1] = "Rizzo"; //Change index #1 to Rizzo
+muppetNames[2] = "Fozzy";
 
-var firstName = "Janay";
+var num = 2;
 
-var phrase = 'I don\'t know \n you\'ll have to speak with the professor';
+console.log(muppetNames[num]); //lets me see whats in index #1
