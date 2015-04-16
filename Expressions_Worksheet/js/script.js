@@ -4,10 +4,13 @@
  * 04/15/2015
  */
 
-alert ("Keep in mind! 1 year in human years = 7 years in dog years.");
-var humanAge = prompt ("How old is the dog in human years?"); //Sparky is 2 years old
-var dogYear = 7; //One year for us is 7 years for them.
 
+var people = prompt ("How many people are at your party?");
+var pizzas = prompt ("How many slices of pizza are there?"); 
+var slices = (people * pizzas);
+
+console.log(slices);
+alert ("pizzas are cut into 8 slices")
 alert ("Sparky is" + " " + humanAge + " " + "in human years which is " + " " + humanAge * dogYear + " " + "years old in dog years");
 
 
