@@ -5,5 +5,7 @@ Expressions Assignment
  */
 
 var height = prompt("I am calculating the surface area of a home. \nPlease enter the height");
+var width = prompt("Please enter the width");
+
 
 
