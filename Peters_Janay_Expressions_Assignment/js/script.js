@@ -39,5 +39,6 @@ console.log(total);
 
 alert(info + " " +"the total Surface Area for your home is" + " " + total);
 
-
+// I entered my name, entered for room 1 (height: 12, width:14), room 2 (height: 12, width: 22),
+// room 3 (height:14, width:13). I got a total of 614sqft!
 

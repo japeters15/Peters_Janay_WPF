@@ -9,6 +9,6 @@ var dogYear = 7; //One year for us is 7 years for them.
 
 var actualAge = humanAge * dogYear;
 
-console.log(actualAge);
+prompt(actualAge);
 
 
