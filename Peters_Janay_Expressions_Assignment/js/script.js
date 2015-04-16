@@ -19,6 +19,8 @@ var area2 = height2 * width2;
 
 console.log(area2);
 
+alert("the area of room 2 is"+ area2);
+
 var height3 = prompt("Please enter height of room 3");
 var width3 = prompt("Please enter width of room 3");
 
@@ -26,8 +28,14 @@ var area3 = height3 * width3;
 
 console.log(area3);
 
+alert("the area of room 3 is"+ area3);
 
+var answer = [area, area2, area3];
 
+var total= answer[0] + answer[1] + answer[2];
+console.log(total);
+
+alert("The total Surface Area for the home is" + total);
 
 
 
