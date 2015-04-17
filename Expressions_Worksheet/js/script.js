@@ -5,20 +5,21 @@
  */
 
 
-alert ("There are 12 people at your party");//12 people at my party
-alert ("There are 5 pizzas total");//5 pizzas
-var slices = (5*8/12);
+//arrays
+var grocery = [20, 30, 10, 50, 15]; //0,1,2,3,4
 
- alert ("The number of slices per person is" + " " + slices); //total is 3 slices per person
-console.log(slices);
+console.log(grocery);
 
-var sparky = (.3 * 12);
+var total = grocery[0] + grocery[1]+ grocery [2]+ grocery [3]+ grocery [4];
 
-console.log(sparky);
+console.log (total);
 
+var average = (125 / 5);
 
-alert ("Sparky got" + " " + sparky + " " + "slice of pizza");
+console.log = (average);
 
+alert ("The total grocery spent over 5 weeks is" + " " + total + " " + "That is an average of" + " " +
+    average + " " + "per week");
 
 
 
