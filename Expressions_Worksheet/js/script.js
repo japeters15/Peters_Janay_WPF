@@ -5,21 +5,24 @@
  */
 
 
-//arrays
-var grocery = [20, 30, 10, 50, 15]; //0,1,2,3,4
 
-console.log(grocery);
+var price = prompt ("What is the original price of the item");
 
-var total = grocery[0] + grocery[1]+ grocery [2]+ grocery [3]+ grocery [4];
+console.log(price);
 
-console.log (total);
+alert ("Congrads you have a 50% discount");
 
-var average = (125 / 5);
+var description = prompt ("What is the item that you are buying?");
 
-console.log = (average);
+console.log (description);
 
-alert ("The total grocery spent over 5 weeks is" + " " + total + " " + "That is an average of" + " " +
-    average + " " + "per week");
+var total = (price -.50);
+
+console.log= (total);
+
+
+alert ("Your" + " " + description + " " + "was originally" + " " +
+    price + " " + "but after a 50% discount, it is now" + " " + total + " " + "without tax");
 
 
 
