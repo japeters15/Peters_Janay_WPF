@@ -1,10 +1,10 @@
-//Conditional Logic
+//Conditional Logic - Relational Expressions
 
-var oldEnough = true;
+var kidHeight= 30;
 
 //if the child is old enough, print to the console "you can ride."
-if(oldEnough){
+//if the kid is over 48 inches in height
+if(kidHeight > 48){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
-console.log("What comes after");
