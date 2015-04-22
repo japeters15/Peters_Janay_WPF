@@ -9,4 +9,10 @@ alert ("You are going out with friends tonight and we have to figure out what si
 
 var payCheck= prompt ("Lets start with your budget! How much did you make on your pay check?");
 
+console.log =(payCheck);
+
+
+var bills = prompt ("How much in bills do you have to pay?");
+
+console.log = (bills);
 
