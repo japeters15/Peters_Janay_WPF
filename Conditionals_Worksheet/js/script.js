@@ -1,29 +1,24 @@
 // Janay Peters
 // 04/23/2015
-// Conditional Worksheet- Last Chance for Gas
+// Conditional Worksheet- Grade Letter Calculator
 
-alert ("Lets see if you can make it across the desert with the gas you have in your tank or if you need to fill up now !");
+alert ("I am trying determine your letter grade in school!");
 
-var efficient = prompt ("What is the gas efficiency of your car ? (mpg)"); // I used the mini cooper and I put 30 mpg.
-
-alert ("Your gas tank is 50% full!");
-
-var reading = (2);
-
-var tank = prompt ("How many gallons is your gas tank ?"); // I said 13.2 gallons
-
-var enough = tank / reading ;
-
-console.log (enough);
-
-var gas = enough * efficient;
-
-console.log (gas);
+var grade = prompt ("What is your current grade?"); //I used 95
 
 
-if(gas > 200){
-    console.log("You can make it without getting gas!");
-}else{
-    console.log("You only have" + " " + enough + " " + "gallons of gas in your tank, better get gas now!");
+if (grade > 90){
+    console.log("You have a" + " " + grade + " " + ", which means you earned an A in the class!");
 }
-
+if (grade >=80 && grade < 90){
+    console.log("You have a" + " " + grade + " " + ", which means you earned an B in the class");
+}
+if (grade >=70 && grade < 80){
+    console.log("You have a" + " " + grade + " " + ", which means you earned an C in the class");
+}
+if (grade >= 60 && grade < 70){
+    console.log("You have a" + " " + grade + " " + ", which means you earned an D in the class");
+}
+if (grade >= 50 && grade < 60 ){
+    console.log("You have a" + " " + grade + " " + ", which means you earned an A in the class");
+}
