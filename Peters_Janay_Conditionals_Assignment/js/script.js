@@ -13,10 +13,13 @@ var bills = prompt ("How much in bills do you have to pay this month?");
 
 var leftOver = payCheck - bills;
 
-var nightOut = 1500;
+var nightOut = 1000;
 
 console.log (leftOver);
 
 if(bills > nightOut){
-    console.log("You can't go out tonight");
+    console.log("You can't go out tonight beause you don't have enough money.");
+}
+if(bills <= nightOut){
+    console.log ("Yay, you can chill because you have enough money!");
 }
