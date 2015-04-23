@@ -18,8 +18,11 @@ var nightOut = 1000;
 console.log (leftOver);
 
 if(bills > nightOut){
-    console.log("You can't go out tonight beause you don't have enough money.");
+    console.log("You can't go out tonight because you don't have enough money.");
 }
 if(bills <= nightOut){
-    console.log ("Yay, you can chill because you have enough money!");
+    console.log ("Yay, you can chill because you have enough money left over!");
 }
+
+alert ("So, if you are able to go out tonight, we have to know how much to spend. Let's set your budget at $50.00!");
+
