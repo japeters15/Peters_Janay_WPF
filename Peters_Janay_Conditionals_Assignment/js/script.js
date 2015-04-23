@@ -7,12 +7,12 @@
 
 alert ("You are going out with friends tonight and we have to figure out what size vehicle to take and set up your budget!");
 
-var payCheck= prompt ("Lets start with your budget! How much did you make on your pay check?");
+var payCheck = prompt ("Lets start with your budget! How much did you make on your pay check this week?");
 
-console.log =(payCheck);
+var bills = prompt ("How much in bills do you have to pay this month?");
 
+var leftOver = payCheck - bills;
 
-var bills = prompt ("How much in bills do you have to pay?");
+console.log (leftOver);
 
-console.log = (bills);
 
