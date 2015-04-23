@@ -7,7 +7,7 @@
 
 alert ("I am trying to figure out if you can chill with friends tonight. If you can, we have to set up your budget!");
 
-var payCheck = prompt ("How much did you make on your pay check this week?"); //Finding out how much they made, I said 2000.
+var payCheck = prompt ("How much did you make on your pay check this week? (No commas please)"); //Finding out how much they made, I said 2000.
 
 var bills = prompt ("How much in bills do you have to pay this month?"); // My answer was 500, in order to chill!
 
