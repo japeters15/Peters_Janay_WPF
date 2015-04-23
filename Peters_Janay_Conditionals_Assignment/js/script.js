@@ -19,10 +19,21 @@ console.log (leftOver);
 
 if(bills > nightOut){
     console.log("You can't go out tonight because you don't have enough money.");
-}
-if(bills <= nightOut){
-    console.log ("Yay, you can chill because you have enough money left over!");
+}else {
+    console.log("Yay, you can chill because you have enough money left over!");
 }
 
 alert ("So, if you are able to go out tonight, we have to know how much to spend. Let's set your budget at $50.00!");
 
+var budget = 50;
+
+var overUnder;
+
+var night = prompt ("You and your friends decided to eat at the CheeseCake Factory. How much did you spend?")
+
+console.log (night);
+
+
+overUnder = (night <= budget) ? "Great, you stayed under budget!" : "Aw, you didn't stay within your budget!";
+
+console.log(overUnder);
