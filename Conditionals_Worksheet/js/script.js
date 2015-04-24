@@ -1,24 +1,18 @@
 // Janay Peters
 // 04/23/2015
-// Conditional Worksheet- Grade Letter Calculator
+// Movie Ticket Price
 
-alert ("I am trying determine your letter grade in school!");
+alert ("Lets see how much your movie ticket is going to cost? ");
 
-var grade = prompt ("What is your current grade?"); //I used 95
+var time = prompt ("What time is your movie at?");
 
+var age = prompt ("How old are you");
 
-if (grade > 90){
-    console.log("You have a" + " " + grade + " " + ", which means you earned an A in the class!");
+var ticket;
+
+if (age >= 55 && age <=10){
+    console.log ("Your ticket price is $7.00");
+}else{
+    console.log ("Your ticket price is $12.00");
 }
-if (grade >=80 && grade < 90){
-    console.log("You have a" + " " + grade + " " + ", which means you earned an B in the class");
-}
-if (grade >=70 && grade < 80){
-    console.log("You have a" + " " + grade + " " + ", which means you earned an C in the class");
-}
-if (grade >= 60 && grade < 70){
-    console.log("You have a" + " " + grade + " " + ", which means you earned an D in the class");
-}
-if (grade >= 50 && grade < 60 ){
-    console.log("You have a" + " " + grade + " " + ", which means you earned an A in the class");
-}
+    
