@@ -8,4 +8,4 @@ function circumference(pie, radius){
     var circ = 2 * pie * radius;
     return circ;
 }
-console.log(total);
+console.log("The circumference of the circle is" + " " + total);
