@@ -6,4 +6,4 @@ function calcArea(w,h){
     var area = w*h;
     return area;//console.log(area); //function spit!
 }
-console.log(area);
+console.log(total);
