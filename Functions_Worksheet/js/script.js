@@ -2,10 +2,10 @@
 // 04/28/2015
 // Functions Worksheet- Circumference
 
-circumference(3.14, 2);
+var total = circumference(3.14, 2);
 
 function circumference(pie, radius){
     var circ = 2 * pie * radius;
     return circ;
 }
-console.log(circ);
+console.log(total);
