@@ -1,14 +1,8 @@
-// Functions - Variable Scape
+// Functions - Parameters and Arguments
 
-var width = 5;
-
-
-function calcArea(){ // Function Definition
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    //console.log (area);
+calcArea(30, 20); //Arguments
+function calcArea(w, h){  //Storage Bins (w=30, h=20)
+    var area = w * h;
+    console.log (area);
 }
-console.log(width);
-calcArea(); //Invocation (Function call)
 
