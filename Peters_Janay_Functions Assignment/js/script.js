@@ -3,9 +3,11 @@
 // Functions Assignment
 
 
-var car1 = prompt ("Hello, I am conducting a study about gas mileage! Lets say that you have two cars with full tanks of gas, we have to figure out which one could travel the furthest distance! What size gallon tank does your first car have?");
+var car1 = prompt ("Hello, I am conducting a study about gas mileage! Lets say that you have two cars with full tanks of gas, " +
+"we have to figure out which one could travel the furthest distance! What size gallon tank does your first car have?");
+//I used 16
 
-var mile = prompt ("What are the average miles per gallon?")
+var mile = prompt ("What are the average miles per gallon?") //I said 25
 
 var total = mpg (car1, mile);
 
@@ -16,9 +18,9 @@ function mpg(m, g){
 
 console.log(total);
 
-var car2 = prompt("Now lets find out what size tank your second car has!");
+var car2 = prompt("Now lets find out what size tank your second car has!");//I used 21
 
-var mile2 = prompt("What are the average miles per gallon?");
+var mile2 = prompt("What are the average miles per gallon?");//I said 20
 
 
 var mpg2 = function(m2 , g2){
@@ -34,6 +36,6 @@ console.log(a);
 if (total > a){
     console.log("Your first car will go the furthest!");
 }else{
-    console.log("Your second car will go the furthest!");
+    console.log("Your second car will go the furthest!");//My second car went the furthest!
 }
 
