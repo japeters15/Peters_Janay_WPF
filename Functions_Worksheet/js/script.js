@@ -2,10 +2,10 @@
 // 04/28/2015
 // Functions Worksheet- Stung!
 
-var total = weight(3.14, 2);
+var total = weight (14,3.67);
 
-function weight(14){
-    var stings = 8.67 * 14;
+function weight(w,bee){
+    var stings = w * bee;
     return stings;
 }
-console.log("It takes" + " " + total + " " + "bee stings to kill this animal.);
+console.log("It takes" + " " + total + " " + "bee stings to kill this animal.");
