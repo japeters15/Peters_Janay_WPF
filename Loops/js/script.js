@@ -17,3 +17,9 @@ do {
     c--;
 }
 while (c > o);
+
+console.log("------For Loops----");
+
+for (var i = 10; i > o; i --){
+    console.log( i + "kegs on the wall")
+}
