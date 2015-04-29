@@ -15,3 +15,17 @@ function mpg(m, g){
 }
 
 console.log(total);
+
+var car2 = prompt("Now lets find out what size tank your second car has!");
+
+var mile2 = prompt("What are the average miles per gallon?");
+
+
+var mpg2 = function(m2 , g2){
+    var distance2 = m2 * g2;
+    return distance2;
+}
+
+var a = mpg2(car2, mile2);
+
+console.log(a);
