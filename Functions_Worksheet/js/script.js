@@ -1,11 +1,11 @@
 // Janay Peters
 // 04/28/2015
-// Functions Worksheet- Circumference
+// Functions Worksheet- Stung!
 
-var total = circumference(3.14, 2);
+var total = weight(3.14, 2);
 
-function circumference(pie, radius){
-    var circ = 2 * pie * radius;
-    return circ;
+function weight(14){
+    var stings = 8.67 * 14;
+    return stings;
 }
-console.log("The circumference of the circle is" + " " + total);
+console.log("It takes" + " " + total + " " + "bee stings to kill this animal.);
