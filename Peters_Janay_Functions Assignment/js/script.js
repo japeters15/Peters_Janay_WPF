@@ -39,3 +39,6 @@ if (total > a){
     console.log("Your second car will go the furthest!");//My second car went the furthest!
 }
 
+// I typed 16 for size of tank, car 1, and 25 for mpg; I got 400.
+// I typed 21 for size of tank, car 2, and 20 for mpg; I got 420.
+// My second car would go the furthest!
